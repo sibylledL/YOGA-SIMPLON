@@ -1,0 +1,350 @@
+body{
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #4d0099;
+}
+
+
+
+header{
+height: 100px;
+background-color: white;
+display: block;
+width: 100%;
+position: fixed;
+}
+
+.menu{
+  margin : 0 50px 0 50px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  }
+
+
+.menu ul{
+  list-style: none;
+  width: 60%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  justify-content: space-between;
+  padding-left: 260px;
+  margin-top: 0px;
+
+
+  }
+
+.menu a{
+display: inline;
+margin-top: 0px;
+padding-top: 52px;
+padding-bottom: 23px;
+border-top: 2px solid transparent;
+text-decoration: none;
+color: #4d0099;
+  }
+
+.menu h2{
+font-size : 40px;
+font-weight: 300;
+}
+
+.menu .en-cours{
+  border-top : 2px solid #ff6666;
+  color: #ff6666;
+}
+
+.menu a:hover{
+  border-top : 2px solid #ff6666;
+  color: #ff6666;
+}
+
+.hide {
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  height: 450px
+}
+.bandeau{
+width:100%;
+margin-top: -180px;
+}
+
+.bandeau2{
+
+  background-image: url('studio.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+}
+
+.bandeau3{
+
+  background-image: url('pagecours.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+}
+.presentation{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 130vh;
+  margin: 0 30px 0 30px;
+}
+
+.orange {
+  color: #ff6600;
+}
+.presentation .col1{
+  flex-wrap: wrap;
+  padding: 0 5px 0 20px;
+  width: 35%;
+}
+
+.titres{
+  font-size: 40px;
+  line-height: 45px;
+}
+.titre-suite{
+  font-size: 20px;
+  padding-right: 20px;
+}
+.separator{
+  height: 5px;
+  border-bottom: 2px solid black;
+  width: 200px;
+}
+
+.presentation .col2{
+width: 65%;
+flex-direction: row;
+flex-wrap: wrap;
+padding-top: 40px;
+font-size: 20px;
+}
+.table_row{
+display: grid;
+grid-template-row: auto auto auto auto;
+grid-gap: 10px;
+padding: 10px;
+}
+
+.row {
+display: flex;
+flex-direction: row;
+border-bottom: 2px solid grey;
+padding:10px 0 35px 0;
+font-size: 30px;
+height: 55px;
+}
+
+.row img{
+  width: 80px;
+}
+
+.info_event{
+  height: 50px;
+  padding-left: 40px;
+}
+.info_event p{
+  margin: 0px;
+  height: 70px;
+  font-size: 19px;
+}
+
+
+.col2 a{
+  text-decoration: none;
+  font-size: 19px;
+  margin: 0px;
+  color: #4d0099;
+  display: inline;
+}
+.col2 a p{
+  padding-left: 10px;
+}
+
+.adresse{
+  font-size: 19px;
+  text-align: center;
+  height: 200px;
+  width: 100%;
+}
+
+.prog{
+margin: 0 20px 0 20px;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+border-top: 2px solid #4d0099;
+height: 790px;
+align-items: center;
+font-size: 25px;
+margin-bottom: 50px;
+
+}
+/*.titre-prog{
+  align-items: center;
+}*/
+.tab_cours{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 140%;
+  justify-content: space-between;
+}
+
+.tab_cours p{
+font-size: 18px;
+
+}
+
+.cours{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+height:325px;
+width: 250px;
+
+}
+
+.cours img{
+  height:250px;
+}
+
+
+footer {
+  background-color: #252525;
+  height: 65px;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+
+footer p{
+padding-top: 15px;
+}
+
+/*planning*/
+
+.titre-planning{
+  padding-top: 50px;
+text-align: center;
+font-size: 25px;
+}
+.semaine{
+  margin: 0 100px 100px 100px;
+  height: 800px;
+}
+.planning{
+  display: flex;
+  flex-direction: row;
+  height: 750px;
+  width: 100%;
+  background-color: #cc99ff;
+  justify-content: space-between;
+  border: 1px solid #cc99ff
+;
+}
+
+.jour{
+  display: flex;
+  flex-direction: column;
+  width: 12%;
+  height: 100%;
+  background-color: #cc99ff;
+}
+
+
+.titre-jour{
+  height: 50px;
+  background-color: white;
+  margin-bottom: 2px;
+text-align: center;
+padding-top: 10px;
+}
+.jour .blanche{
+    background-color: white;
+}
+.heure{
+  height: 11%;
+  background-color: #ffbf80;
+  margin:0px 0px 2px 0;
+  font-size: 13px;
+  padding: 5px 0 0 5px;
+  color: black;
+  justify-content: center;
+}
+
+.heure2{
+  height: 23.5%;
+  background-color: green;
+  margin:0px 0px 2px 0;
+  font-size: 13px;
+  padding: 5px 0 0 6px;
+  color: black;
+  justify-content: center;
+  background-color: #ffbf80;
+}
+
+.heure p{
+  margin: 0px;
+}
+
+.planning .jour .pause{
+  background: repeating-linear-gradient(-45deg, white, #80c1ff 7%);
+}
+
+.tarif{
+    margin: 0 100px 100px 100px;
+    height: 800px;
+}
+
+.titre-tarif{
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.tarif-detail{
+  display: flex;
+  flex-direction: row;
+}
+
+.carte{
+  width: 60%;
+}
+
+.cours-unite{
+  width: 40%;
+  padding-left: 100px;
+}
+.liste-cours{
+  margin: 100px 100px 100px 100px;
+  height: auto;
+
+}
+.liste-cours .grand{
+  height: 500px;
+  margin: 40px 0 40px 0;
+}
+.cours-type{
+  display: flex;
+  flex-direction: row;
+  height: 350px;
+}
+
+.image-cours img{
+  width:300px;
+}
+.info-cours{
+  padding-left: 50px;
+}
